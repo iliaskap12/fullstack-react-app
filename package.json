@@ -4,7 +4,7 @@
   "description": "Fullstack react app and node.js object for practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
