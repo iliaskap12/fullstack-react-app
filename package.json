@@ -1,0 +1,32 @@
+{
+  "name": "fullstack-react-app",
+  "version": "1.0.0",
+  "description": "Fullstack react app and node.js object for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iliaskap12/fullstack-react-app.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "iliaskap12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iliaskap12/fullstack-react-app/issues"
+  },
+  "homepage": "https://github.com/iliaskap12/fullstack-react-app#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  }
+}
