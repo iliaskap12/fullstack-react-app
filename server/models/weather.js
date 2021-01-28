@@ -1,8 +1,7 @@
 const request = require('request-promise');
+require('dotenv').config();
 
-const secrets = require('../../config');
-
-const WEATHER_API_KEY = secrets.weather_api_key;
+const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 
 class Weather {
     static retrieveByCity (city, callback) {
